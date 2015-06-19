@@ -3,21 +3,21 @@
 
 ## Install
 
-1. Install nodejs 
+    1. Install nodejs 
 
-    https://nodejs.org/download/
+        https://nodejs.org/download/
 
-2. Install bower
+    2. Install bower
 
-    npm install -g bower;
+        npm install -g bower;
 
-3. Install Ruby 
+    3. Install Ruby 
 
-    https://www.ruby-lang.org/en/documentation/installation/
+        https://www.ruby-lang.org/en/documentation/installation/
 
-4. install compass
+    4. install compass
 
-    http://compass-style.org/install/
+        http://compass-style.org/install/
 
 
 ## Setup
@@ -27,20 +27,29 @@
 
 ## config
 
-A config.rb file is required to asssit automatic sprite generation.  If do not have this file then you will need to make one.
+    A config.rb file is required to asssit automatic sprite generation.  If do not have this file then you will need to make one.
 
 ### Create a file named config.rb and save it in the src folder then add the following:
 
-http_path = "../"
-css_dir = "css"
-sass_dir = "spriteSass"
-images_dir = "src/images"
-fonts_dir = "fonts"
-javascripts_dir = "javascripts"
-output_style = :expanded
-line_comments = false
-preferred_syntax = :scss
-line_comments = false
+    http_path = "../"
+
+    css_dir = "css"
+
+    sass_dir = "spriteSass"
+
+    images_dir = "src/images"
+
+    fonts_dir = "fonts"
+
+    javascripts_dir = "javascripts"
+
+    output_style = :expanded
+
+    line_comments = false
+
+    preferred_syntax = :scss
+
+    line_comments = false
 
 ## Watch files
 
@@ -67,11 +76,3 @@ The app should comprise the following:
     |-- bower.json
     |-- package.json
     `-- README.mb
-
-
-
-
-
-
-
-# weasel 
